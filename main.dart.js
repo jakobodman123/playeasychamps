@@ -20094,19 +20094,19 @@ for(;r!==-1;){q=r===0?0:B.b.u0(a,"\n",r-1)+1
 if(c===r-q)return q
 r=B.b.iu(a,b,r+1)}return null},
 agS(a){var s=t.N
-return A.Pf(A.iD("http://localhost:4000/pastGames?summoner="+a),A.aD(["content-type","application/json"],s,s))},
+return A.Pf(A.iD("https://playeasychamps.herokuapp.com/pastGames?summoner="+a),A.aD(["content-type","application/json"],s,s))},
 agU(a){var s=t.N
-return A.Pf(A.iD("http://localhost:4000/getRanked?summonerid="+a),A.aD(["content-type","application/json"],s,s))},
+return A.Pf(A.iD("https://playeasychamps.herokuapp.com/getRanked?summonerid="+a),A.aD(["content-type","application/json"],s,s))},
 agV(a){var s=t.N
-return A.Pf(A.iD("http://localhost:4000/getSummoner?summoner="+a),A.aD(["content-type","application/json"],s,s))},
+return A.Pf(A.iD("https://playeasychamps.herokuapp.com/getSummoner?summoner="+a),A.aD(["content-type","application/json"],s,s))},
 agR(a){var s
 a.toString
 s=t.N
-return A.Pf(A.iD("http://localhost:4000/getChallenges?puuid="+a),A.aD(["content-type","application/json"],s,s))},
+return A.Pf(A.iD("https://playeasychamps.herokuapp.com/getChallenges?puuid="+a),A.aD(["content-type","application/json"],s,s))},
 agT(a){var s
 a.toString
 s=t.N
-return A.Pf(A.iD("http://localhost:4000/getMasteries?summonerid="+a),A.aD(["content-type","application/json"],s,s))},
+return A.Pf(A.iD("https://playeasychamps.herokuapp.com/getMasteries?summonerid="+a),A.aD(["content-type","application/json"],s,s))},
 ac7(){var s=0,r=A.ag(t.H),q,p,o,n,m,l,k,j
 var $async$ac7=A.ah(function(a,b){if(a===1)return A.ad(b,r)
 while(true)switch(s){case 0:s=2
